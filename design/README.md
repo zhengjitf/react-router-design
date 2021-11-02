@@ -1,5 +1,5 @@
 ### context
-> [原文件](../packages/react-router/index.tsx)
+> react-router
 
 #### [NavigationContext](https://api.codestream.com/c/X-vb0kCFvXvIJGWz/akq99plWSrSgLOmVeIkYow)
 `NavigationContext.Provider` 作为 `Router` 的顶层包裹
@@ -91,3 +91,11 @@ type UseMatch<ParamKey extends string = string>(
 
 #### useNavigationType
 用于获取当前导航的 action 类型：POP、PUSH、REPLACE
+
+#### useSearchParams
+> react-router-dom
+
+返回 `[searchParams, setSearchParams]`
+
+#### useLinkClickHandler
+> react-router-dom
